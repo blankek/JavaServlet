@@ -32,7 +32,7 @@ public class FileExplorerServlet extends HttpServlet {
 
         Path userHome = Paths.get(BASE_DIR, login);
 
-        Files.createDirectories(userHome); // безопасно создаёт все недостающие папки
+        Files.createDirectories(userHome);
         userHome = userHome.toRealPath();
 
         String paramPath = req.getParameter("path");
