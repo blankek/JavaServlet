@@ -11,7 +11,7 @@
 
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
-        <property name="hibernate.show_sql">true</property>
+
 
         <mapping class="com.example.servlet.accounts.User"/>
     </session-factory>
